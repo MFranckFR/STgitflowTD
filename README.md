@@ -1,4 +1,4 @@
-# TD Git Flow
+# TP Git Flow
 
 Version :0.0.1
 
@@ -146,9 +146,8 @@ Nous constatons la création de la banche **develop**
         - When done, run:
         git flow release finish 'v0.0.1'
 
-## Modifiez le fichier README en y insérant le texte 
+## Modifiez le fichier README.md en y insérant le texte 
 Version :0.0.1
-    Vi README.md
 
 ## Ajouter, commiter
 
@@ -204,6 +203,7 @@ Version :0.0.1
 ## Commencer un hotfix
 
 Imaginons nous nous étions trompés dans le titre de notre page index, nous aurons mis en place un branche de correctif comme ceci :
+
     git flow hotfix start title
 
         Branches 'master' and 'origin/master' have diverged.
@@ -216,12 +216,12 @@ Imaginons nous nous étions trompés dans le titre de notre page index, nous aur
         - Start committing your hot fixes
         - Bump the version number now!
         - When done, run:
+    
     git flow hotfix finish 'title'
 
 ## Modifiez le fichier index.html en y insérant le titre
 
     <title>Premier Git Flow</title>
-    vi index.html
 
 ## Ajouter, commiter :
     git add index.html
@@ -230,9 +230,8 @@ Imaginons nous nous étions trompés dans le titre de notre page index, nous aur
 ## Terminer un hotfix
     git flow hotfix finish title
 
-## Une fenêtre s’ouvrira et vous demandera de rentre un message correspondant à cet Hotfix, insérer 
-Hotfix title
-## Taper esc , puis :wq
+## Une fenêtre s’ouvrira et vous demandera de rentre un message correspondant à cet Hotfix, insérer le texte suivant puis Puis taper esc , puis ":wq" pour enregistrer + terminer
+    Hotfix title
 
 ## Lister vos branches :
     git branch
@@ -250,8 +249,7 @@ Taper **gitk** pour voir votre historique !!! Pour pouvoir continuer, veuillez f
 ## Commençons le développement d'une nouvelle fonctionnalité avec :
     git flow feature start demo
 
-## Modifier trois fois le fichier index.html :
-    vi index.html
+## Modifier trois fois le fichier "index.html" avec votre éditeur
 
 ## et faire trois commits correspondants :
     git commit -a -m "a1"
@@ -261,15 +259,15 @@ Taper **gitk** pour voir votre historique !!! Pour pouvoir continuer, veuillez f
 ## Terminer la fonctionnalité
     git flow feature finish demo
 
-    Switched to branch 'develop'
-    Merge made by the 'recursive' strategy.
-    index.html | 2 +-
-    1 file changed, 1 insertion(+), 1 deletion(-)
-    Deleted branch feature/demo (was b84dd83).
-    Summary of actions:
-    - The feature branch 'feature/demo' was merged into 'develop'
-    - Feature branch 'feature/demo' has been locally deleted
-    - You are now on branch 'develop'
+        Switched to branch 'develop'
+        Merge made by the 'recursive' strategy.
+        index.html | 2 +-
+        1 file changed, 1 insertion(+), 1 deletion(-)
+        Deleted branch feature/demo (was b84dd83).
+        Summary of actions:
+        - The feature branch 'feature/demo' was merged into 'develop'
+        - Feature branch 'feature/demo' has been locally deleted
+        - You are now on branch 'develop'
 
 ## Affichons notre historique :
     git log --oneline --graph --color --all –decorate
@@ -277,13 +275,16 @@ Taper **gitk** pour voir votre historique !!! Pour pouvoir continuer, veuillez f
 ## Finir par :
     git push origin develop
 
-## FIN
+## FIN du TP
 
 # Exercices
 
 Selon le TP, veuillez dans le meme projet à la suite :
 
 ## Créer une nouvelle release v0.0.2
+
 * Créer un nouvelle hotfix, imaginons aue nous nous somme encore trompé dans le titre de la page index par exemple.
 * Créer une nouvelle fonctionnalité appelé « contactpage ».
 * Créer une nouvelle release v0.0.3.
+
+## FIN 2
