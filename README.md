@@ -245,7 +245,7 @@ Taper **gitk** pour voir votre historique !!! Pour pouvoir continuer, veuillez f
     git log --oneline --graph --color --all –decorate
 
 ## Pour afficher l’historique d’une seule branche, veuillez taper la commande suivante :
-    git log --graph –oneline –first-parent develop
+    git log --oneline --graph --color –decorate –first-parent develop
 
 ## Commençons le développement d'une nouvelle fonctionnalité avec :
     git flow feature start demo
