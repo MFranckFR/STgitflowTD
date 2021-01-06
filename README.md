@@ -187,15 +187,15 @@ Version :0.0.1
 ## Envoyons sur le repository distant le tag que nous venons de créer
     git push –tags
 
-## Enumerating objects: 9, done.
-    Counting objects: 100% (9/9), done.
-    Delta compression using up to 4 threads
-    Compressing objects: 100% (6/6), done.
-    Writing objects: 100% (7/7), 724 bytes | 241.00 KiB/s, done.
-    Total 7 (delta 2), reused 0 (delta 0)
-    To gitlab.com:DamienMonchaty/repogitflow.git
-    * [new tag]
-    v0.0.1 -> v0.0.1
+        Enumerating objects: 9, done.
+        Counting objects: 100% (9/9), done.
+        Delta compression using up to 4 threads
+        Compressing objects: 100% (6/6), done.
+        Writing objects: 100% (7/7), 724 bytes | 241.00 KiB/s, done.
+        Total 7 (delta 2), reused 0 (delta 0)
+        To gitlab.com:DamienMonchaty/repogitflow.git
+        * [new tag]
+        v0.0.1 -> v0.0.1
 
 ## Mettez à jour vos remotes
     git push origin master
