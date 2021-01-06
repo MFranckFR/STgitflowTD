@@ -1,5 +1,7 @@
 # TD Git Flow
 
+Version :0.0.1
+
 note: https://dillinger.io/ pour visualiser page markdown
 [comment]: <> (note: https://dillinger.io/ pour visualiser page markdown)
 
