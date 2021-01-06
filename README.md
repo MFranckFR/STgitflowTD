@@ -7,7 +7,8 @@ note: https://dillinger.io/ pour visualiser page markdown
     git add README.md
     git commit -m "add README"
     git push -u origin master
-    Lister vos branches :
+    
+## Lister vos branches :
     git branch
 
 ## Installer Git flow si besoin (Linux) :
